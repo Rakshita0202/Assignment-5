@@ -1,0 +1,25 @@
+Data Cleaning Performed
+
+1)Removed duplicate employee records using dropDuplicates().
+2)Handled missing values using fillna().
+3)Replaced null age with 0.
+4)Replaced null salary with 0.
+5)Replaced null names with "Unknown".
+
+Data Transformation
+
+1)Filtered employees based on age and department.
+2)Renamed columns and changed data types.
+3)Standardized department values.
+
+Aggregation
+
+1)Calculated employee count, average salary, total salary, minimum salary, and maximum salary.
+
+Spark Concepts Learned
+
+1)Spark DataFrames are immutable.
+2)Spark performs in-memory processing.
+3)groupBy() causes shuffle operations.
+4)Wide transformations are more expensive than narrow transformations.
+5)Data pipelines combine cleaning, transformation, and aggregation into a single workflow.
